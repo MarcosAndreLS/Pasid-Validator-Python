@@ -1,0 +1,31 @@
+Starting source
+[Ciclo 0] Mensagem considerada: '0;1;1748267229.808066;1748267229.808066;1748267229.81261;1748267229.914916' | Tempo de resposta (MRT): 106.85 ms
+[Ciclo 0] Mensagem considerada: '0;2;1748267230.814856;1748267230.817876;1748267230.819884;1748267230.922051' | Tempo de resposta (MRT): 109.21 ms
+[Ciclo 0] Mensagem considerada: '0;3;1748267231.817064;1748267231.817064;1748267231.822239;1748267231.923791' | Tempo de resposta (MRT): 106.99 ms
+[Ciclo 0] Mensagem considerada: '0;4;1748267232.822985;1748267232.822985;1748267232.874445;1748267232.976712' | Tempo de resposta (MRT): 155.10 ms
+[Ciclo 0] Mensagem considerada: '0;5;1748267233.824305;1748267233.82631;1748267233.828315;1748267233.93023' | Tempo de resposta (MRT): 105.93 ms
+[Ciclo 0] Mensagem considerada: '0;6;1748267234.827611;1748267234.83019;1748267234.835187;1748267234.937017' | Tempo de resposta (MRT): 109.41 ms
+[Ciclo 0] Mensagem considerada: '0;7;1748267235.829132;1748267235.831184;1748267235.834502;1748267235.935161' | Tempo de resposta (MRT): 106.03 ms
+[Ciclo 0] Mensagem considerada: '0;8;1748267236.830636;1748267236.830636;1748267236.838389;1748267236.939094' | Tempo de resposta (MRT): 108.46 ms
+[Ciclo 0] Mensagem considerada: '0;9;1748267237.834552;1748267237.837479;1748267237.837479;1748267237.941629' | Tempo de resposta (MRT): 108.14 ms
+[Ciclo 0] Mensagem considerada: '0;10;1748267238.83725;1748267238.841589;1748267238.84863;1748267238.949705' | Tempo de resposta (MRT): 112.46 ms
+Ciclo 0 finalizado.
+Mensagens consideradas: 10
+MRT médio: 112.86 ms
+Desvio padrão do MRT: 14.20 ms
+==============================
+[Ciclo 1] Mensagem considerada: '1;1;1748267239.85616;1748267239.859124;1748267239.859124;1748267239.964486' | Tempo de resposta (MRT): 108.33 ms
+[Ciclo 1] Mensagem considerada: '1;2;1748267240.861335;1748267240.864205;1748267240.866273;1748267240.972543' | Tempo de resposta (MRT): 111.21 ms
+[Ciclo 1] Mensagem considerada: '1;3;1748267241.864631;1748267241.864631;1748267241.873587;1748267241.974551' | Tempo de resposta (MRT): 109.92 ms
+[Ciclo 1] Mensagem considerada: '1;4;1748267242.867561;1748267242.871729;1748267242.879754;1748267242.983156' | Tempo de resposta (MRT): 116.51 ms
+[Ciclo 1] Mensagem considerada: '1;5;1748267243.870083;1748267243.875843;1748267243.883519;1748267243.986663' | Tempo de resposta (MRT): 116.58 ms
+[Ciclo 1] Mensagem considerada: '1;6;1748267244.873399;1748267244.877504;1748267244.887247;1748267244.988661' | Tempo de resposta (MRT): 115.26 ms
+[Ciclo 1] Mensagem considerada: '1;7;1748267245.878139;1748267245.881651;1748267245.889556;1748267245.991318' | Tempo de resposta (MRT): 113.18 ms
+[Ciclo 1] Mensagem considerada: '1;8;1748267246.880114;1748267246.880114;1748267246.891114;1748267246.992095' | Tempo de resposta (MRT): 112.54 ms
+[Ciclo 1] Mensagem considerada: '1;9;1748267247.883042;1748267247.883042;1748267247.883042;1748267247.989904' | Tempo de resposta (MRT): 106.86 ms
+[Ciclo 1] Mensagem considerada: '1;10;1748267248.884816;1748267248.884816;1748267248.893536;1748267248.994894' | Tempo de resposta (MRT): 110.08 ms
+Ciclo 1 finalizado.
+Mensagens consideradas: 10
+MRT médio: 112.05 ms
+Desvio padrão do MRT: 3.20 ms
+==============================
