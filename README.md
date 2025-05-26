@@ -15,7 +15,7 @@
 1. Clone o repositório:
 
 ```bash
-  git clone https://github.com/seu-usuario/Pasid-Validator-Python-main.git
+  git clone git@github.com:MarcosAndreLS/Pasid-Validator-Python.git
   cd Pasid-Validator-Python-main
 ```
 
@@ -37,4 +37,22 @@
   
   > python main.py source
   
+```
+
+## 📁 Estruturação dos arquivos
+
+```text
+  Pasid-Validator-Python-main/
+  │
+  ├── main.py                      # Script principal que executa a validação
+  ├── log.txt                      # Arquivo gerado com os resultados (tempo e status)
+  ├── README.md                    # Este arquivo
+  └── src/
+      ├── abstract_proxy.py        # Interface base para proxies de validação
+      ├── config.py                # Configurações gerais do sistema
+      ├── load_balance.py          # Balanceador de carga (round-robin)
+      ├── service.py               # Orquestrador do sistema de validação
+      ├── source.py                # Proxies concretos que validam os dados
+      └── utils.py                 # Funções auxiliares (geração, logs, etc.)
+
 ```
