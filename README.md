@@ -30,8 +30,8 @@
   
   # Para rodar os load balances com suas respectivas portas 
   
-  > python main.py load_balance 2000
-  > python main.py load_balance 3000
+  > python main.py load_balancer 2000
+  > python main.py load_balancer 3000
   
   # Por fim, rodar o source
   
