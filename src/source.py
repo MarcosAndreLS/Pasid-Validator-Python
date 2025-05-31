@@ -22,7 +22,7 @@ class Source(AbstractProxy):
         self.loadbalancer_addresses = config.get("loadbalancer_addresses", "")
         self.response_times: List[float] = []
 
-        self.target_ip: str = config.get("target_ip", "localhost")
+        self.target_ip: str = config.get("target_ip", "loadbalancer1")
         self.target_port: int = config.get("target_port", 2000)
 
         print("Loadbalancer addresses:", self.loadbalancer_addresses)
