@@ -1,18 +1,5 @@
 services:
 
-  ollama:
-    image: ollama/ollama
-    container_name: ollama
-    entrypoint: ""  # <-- Adicione esta linha
-    command: >
-      sh -c "ollama serve & sleep 5 && ollama pull llama3.2 && tail -f /dev/null"
-    ports:
-      - "11434:11434"
-    volumes:
-      - ollama:/root/.ollama
-    networks:
-      - pasidnet
-
   source:
     build: .
     command: python main.py source
@@ -34,6 +21,8 @@ services:
     depends_on:
       - service1
       - service2
+      - service5
+      - service6
     networks:
       - pasidnet
 
@@ -46,6 +35,8 @@ services:
     depends_on:
       - service3
       - service4
+      - service7
+      - service8
     networks:
       - pasidnet
 
@@ -57,8 +48,8 @@ services:
       - pasidnet
     ports:
       - "4001:4001"
-    depends_on:
-      - ollama
+    env_file:
+      - .env
 
   service2:
     build: .
@@ -68,8 +59,8 @@ services:
       - pasidnet
     ports:
       - "4002:4002"
-    depends_on:
-      - ollama
+    env_file:
+      - .env
 
   service3:
     build: .
@@ -79,9 +70,9 @@ services:
       - pasidnet
     ports:
       - "4100:4100"
-    depends_on:
-      - ollama
-
+    env_file:
+      - .env
+  
   service4:
     build: .
     command: python main.py service 4101 100
@@ -90,12 +81,54 @@ services:
       - pasidnet
     ports:
       - "4101:4101"
-    depends_on:
-      - ollama
+    env_file:
+      - .env
+
+  service5:
+    build: .
+    command: python main.py service 4003 100
+    container_name: service5
+    networks:
+      - pasidnet
+    ports:
+      - "4003:4003"
+    env_file:
+      - .env
+  
+  service6:
+    build: .
+    command: python main.py service 4004 100
+    container_name: service6
+    networks:
+      - pasidnet
+    ports:
+      - "4004:4004"
+    env_file:
+      - .env
+  
+  service7:
+    build: .
+    command: python main.py service 4102 100
+    container_name: service7
+    networks:
+      - pasidnet
+    ports:
+      - "4102:4102"
+    env_file:
+      - .env
+    
+  service8:
+    build: .
+    command: python main.py service 4103 100
+    container_name: service8
+    networks:
+      - pasidnet
+    ports:
+      - "4103:4103"
+    env_file:
+      - .env
+  
 
 networks:
   pasidnet:
     driver: bridge
-
-volumes:
-  ollama:

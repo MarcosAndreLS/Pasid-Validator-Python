@@ -1,16 +1,69 @@
 Starting source
+Iniciando Ciclo 0.
+[Ciclo 0] Mensagem considerada: '0;2;1748873167.342207;1748873167.346589;1748873167.351936;1748873169.170229' | Tempo de resposta (MRT): 1828.82 ms
+[Ciclo 0] Mensagem considerada: '0;3;1748873169.34549;1748873169.347407;1748873169.349616;1748873170.710071' | Tempo de resposta (MRT): 1365.26 ms
+[Ciclo 0] Mensagem considerada: '0;1;1748873165.336178;1748873165.338805;1748873165.342968;1748873170.788394' | Tempo de resposta (MRT): 5453.10 ms
+[Ciclo 0] Mensagem considerada: '0;4;1748873171.348447;1748873171.350615;1748873171.354493;1748873172.868815' | Tempo de resposta (MRT): 1521.14 ms
+[Ciclo 0] Mensagem considerada: '0;5;1748873173.343909;1748873173.345363;1748873173.347511;1748873174.791314' | Tempo de resposta (MRT): 1448.12 ms
+[Ciclo 0] Mensagem considerada: '0;6;1748873175.345228;1748873175.346473;1748873175.349356;1748873176.955937' | Tempo de resposta (MRT): 1611.74 ms
+[Ciclo 0] Mensagem considerada: '0;7;1748873177.347475;1748873177.350034;1748873177.354123;1748873179.072008' | Tempo de resposta (MRT): 1725.43 ms
+[Ciclo 0] Mensagem considerada: '0;8;1748873179.349892;1748873179.352459;1748873179.356085;1748873180.783444' | Tempo de resposta (MRT): 1434.02 ms
+[Ciclo 0] Mensagem considerada: '0;9;1748873181.351492;1748873181.352422;1748873181.353939;1748873182.668147' | Tempo de resposta (MRT): 1317.05 ms
+[Ciclo 0] Mensagem considerada: '0;10;1748873183.352784;1748873183.354069;1748873183.355566;1748873184.621546' | Tempo de resposta (MRT): 1269.69 ms
 Ciclo 0 finalizado.
-Mensagens consideradas: 0
-MRT médio: 0.00 ms
-Desvio padrão do MRT: 0.00 ms
+Mensagens efetivamente consideradas (com MRT): 10
+Lista de mensagens consideradas (respostas): 10
+MRT médio: 1897.44 ms
+Desvio padrão do MRT: 1197.12 ms
 ==============================
-[Ciclo 1] Mensagem considerada: 'busy' | Tempo de resposta (MRT): 6.15 ms
-[Ciclo 1] Mensagem considerada: 'busy' | Tempo de resposta (MRT): 8.89 ms
-[Ciclo 1] Mensagem considerada: 'busy' | Tempo de resposta (MRT): 8.55 ms
-[Ciclo 1] Mensagem considerada: 'busy' | Tempo de resposta (MRT): 46.13 ms
-[Ciclo 1] Mensagem considerada: 'busy' | Tempo de resposta (MRT): 50.28 ms
+Iniciando Ciclo 1.
+[Ciclo 1] Mensagem considerada: '1;1;1748873184.844811;1748873184.846334;1748873184.848213;1748873186.267513' | Tempo de resposta (MRT): 1423.52 ms
+[Ciclo 1] Mensagem considerada: '1;2;1748873186.847541;1748873186.849979;1748873186.854404;1748873188.30763' | Tempo de resposta (MRT): 1461.72 ms
+[Ciclo 1] Mensagem considerada: '1;3;1748873188.849992;1748873188.852855;1748873188.857424;1748873190.68565' | Tempo de resposta (MRT): 1836.45 ms
+[Ciclo 1] Mensagem considerada: '1;4;1748873190.852851;1748873190.855216;1748873190.859663;1748873192.512334' | Tempo de resposta (MRT): 1659.98 ms
+[Ciclo 1] Mensagem considerada: '1;5;1748873192.855016;1748873192.857317;1748873192.861165;1748873194.251198' | Tempo de resposta (MRT): 1396.62 ms
+[Ciclo 1] Mensagem considerada: '1;6;1748873194.857122;1748873194.859364;1748873194.863363;1748873196.298869' | Tempo de resposta (MRT): 1442.61 ms
+[Ciclo 1] Mensagem considerada: '1;7;1748873196.859529;1748873196.862212;1748873196.866506;1748873198.244785' | Tempo de resposta (MRT): 1385.89 ms
+[Ciclo 1] Mensagem considerada: '1;8;1748873198.861251;1748873198.862435;1748873198.864712;1748873200.674164' | Tempo de resposta (MRT): 1813.60 ms
+[Ciclo 1] Mensagem considerada: '1;9;1748873200.862922;1748873200.863879;1748873200.865615;1748873202.643085' | Tempo de resposta (MRT): 1780.58 ms
+[Ciclo 1] Mensagem considerada: '1;10;1748873202.859074;1748873202.86151;1748873202.86578;1748873204.484435' | Tempo de resposta (MRT): 1625.77 ms
 Ciclo 1 finalizado.
-Mensagens consideradas: 5
-MRT médio: 24.00 ms
-Desvio padrão do MRT: 19.83 ms
+Mensagens efetivamente consideradas (com MRT): 10
+Lista de mensagens consideradas (respostas): 10
+MRT médio: 1582.67 ms
+Desvio padrão do MRT: 172.52 ms
+==============================
+Iniciando Ciclo 2.
+[Ciclo 2] Mensagem considerada: '2;1;1748873204.658357;1748873204.659657;1748873204.661412;1748873206.120523' | Tempo de resposta (MRT): 1462.96 ms
+[Ciclo 2] Mensagem considerada: '2;2;1748873206.660121;1748873206.661802;1748873206.666252;1748873208.167149' | Tempo de resposta (MRT): 1508.02 ms
+[Ciclo 2] Mensagem considerada: '2;3;1748873208.66261;1748873208.665437;1748873208.670637;1748873210.218076' | Tempo de resposta (MRT): 1555.81 ms
+[Ciclo 2] Mensagem considerada: '2;4;1748873210.665357;1748873210.667594;1748873210.672977;1748873211.971341' | Tempo de resposta (MRT): 1306.43 ms
+[Ciclo 2] Mensagem considerada: '2;5;1748873212.666696;1748873212.667658;1748873212.669623;1748873214.10955' | Tempo de resposta (MRT): 1443.68 ms
+[Ciclo 2] Mensagem considerada: '2;6;1748873214.669066;1748873214.672419;1748873214.677047;1748873216.157446' | Tempo de resposta (MRT): 1489.08 ms
+[Ciclo 2] Mensagem considerada: '2;7;1748873216.671199;1748873216.672209;1748873216.674272;1748873218.521727' | Tempo de resposta (MRT): 1851.13 ms
+[Ciclo 2] Mensagem considerada: '2;8;1748873218.673323;1748873218.675895;1748873218.680306;1748873220.332364' | Tempo de resposta (MRT): 1660.06 ms
+[Ciclo 2] Mensagem considerada: '2;9;1748873220.67631;1748873220.681135;1748873220.685902;1748873222.408966' | Tempo de resposta (MRT): 1733.05 ms
+[Ciclo 2] Mensagem considerada: '2;10;1748873222.678425;1748873222.67994;1748873222.682715;1748873224.256616' | Tempo de resposta (MRT): 1578.95 ms
+Ciclo 2 finalizado.
+Mensagens efetivamente consideradas (com MRT): 10
+Lista de mensagens consideradas (respostas): 10
+MRT médio: 1558.92 ms
+Desvio padrão do MRT: 148.34 ms
+==============================
+Iniciando Ciclo 3.
+[Ciclo 3] Mensagem considerada: '3;1;1748873224.435201;1748873224.43635;1748873224.439096;1748873226.101746' | Tempo de resposta (MRT): 1667.50 ms
+[Ciclo 3] Mensagem considerada: '3;2;1748873226.43798;1748873226.440758;1748873226.446082;1748873227.843092' | Tempo de resposta (MRT): 1405.49 ms
+[Ciclo 3] Mensagem considerada: '3;3;1748873228.441236;1748873228.443377;1748873228.446488;1748873229.787585' | Tempo de resposta (MRT): 1346.86 ms
+[Ciclo 3] Mensagem considerada: '3;4;1748873230.444522;1748873230.447446;1748873230.451329;1748873232.060903' | Tempo de resposta (MRT): 1616.81 ms
+[Ciclo 3] Mensagem considerada: '3;5;1748873232.437494;1748873232.438568;1748873232.44263;1748873233.876529' | Tempo de resposta (MRT): 1439.46 ms
+[Ciclo 3] Mensagem considerada: '3;6;1748873234.438793;1748873234.439692;1748873234.442265;1748873235.827614' | Tempo de resposta (MRT): 1389.87 ms
+[Ciclo 3] Mensagem considerada: '3;7;1748873236.441606;1748873236.443286;1748873236.449604;1748873238.236469' | Tempo de resposta (MRT): 1795.22 ms
+[Ciclo 3] Mensagem considerada: '3;8;1748873238.443104;1748873238.444292;1748873238.447005;1748873240.028494' | Tempo de resposta (MRT): 1585.75 ms
+[Ciclo 3] Mensagem considerada: '3;9;1748873240.444245;1748873240.445368;1748873240.447187;1748873241.770061' | Tempo de resposta (MRT): 1326.53 ms
+[Ciclo 3] Mensagem considerada: '3;10;1748873242.44606;1748873242.447442;1748873242.4498;1748873244.125471' | Tempo de resposta (MRT): 1679.84 ms
+Ciclo 3 finalizado.
+Mensagens efetivamente consideradas (com MRT): 10
+Lista de mensagens consideradas (respostas): 10
+MRT médio: 1525.33 ms
+Desvio padrão do MRT: 155.05 ms
 ==============================

@@ -41,17 +41,22 @@ class Service(AbstractProxy):
         self.queue.put(data)
         
         try:
-            # Marca timestamp de chegada
+            # Adiciona timestamp de chegada à mensagem
             data = add_timestamp_to_message(data)
 
-            print(f"Processing with model: {self.ia_service.model}")
-            ia_response = self.ia_service.ask(data)
+            print(f"Processing message: {data}")
 
-            # Marca timestamp de envio
-            response = add_timestamp_to_message(ia_response)
+            print(
+                self.ia_service.ask("Como a IA tem revolucionado o século 21?")
+            )
 
-            print(f"Sending response: {response}")
-            client_sock.sendall(response.encode())
+            # Adiciona timestamp de envio à mensagem
+            data = add_timestamp_to_message(data)
+
+            print(f"Sending message: {data}")
+
+            # Envia a mensagem de volta ao cliente
+            client_sock.sendall(data.encode())
         except Exception as e:
             print(f"Error processing request: {e}")
             client_sock.sendall(f"error: {str(e)}".encode())

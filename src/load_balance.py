@@ -26,6 +26,16 @@ class LoadBalancer(AbstractProxy):
             data = client_sock.recv(1024).decode()
             print(f"[LB] Mensagem recebida do cliente: {data}")
 
+            if data.startswith("service_addresses;"):
+                # Exemplo: service_addresses;localhost:3000,localhost:3001
+                print(f"[LB] Configurações recebidas: {data}")
+                services = data.split(";")[1].split(",")
+                self.service_addresses = [(addr.split(":")[0], int(addr.split(":")[1])) for addr in services]
+                print(f"[LB] Atualizando endereço de serviços: {self.service_addresses}")
+                client_sock.sendall("ok".encode())
+                client_sock.close()
+                return
+
             data = add_timestamp_to_message(data)
 
             # Tenta encontrar um service livre (round-robin)

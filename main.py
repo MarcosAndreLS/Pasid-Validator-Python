@@ -10,13 +10,6 @@ def iniciar_source(config=None):
         config = carregar_config()
     print("Config completa:", config)
 
-    # Primeiro estágio: model feeding
-    print("=== Iniciando etapa de alimentação do modelo ===")
-    config_alimentacao = config.copy()
-    config_alimentacao["model_feeding_stage"] = True
-    source_alimentacao = Source(config_alimentacao)
-    source_alimentacao.run()
-
     # Segundo estágio: validação
     print("=== Iniciando etapa de validação ===")
     config_validacao = config.copy()

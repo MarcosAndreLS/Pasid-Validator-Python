@@ -11,7 +11,7 @@ def carregar_config() -> Dict[str, Any]:
         'max_considered_messages_expected': 10,
         'mrts_from_model': [405597.23, 203892.96],
         'sdvs_from_model': [1245.97, 613.95],
-        'arrival_delay': 1000,
-        'qtd_services': [1, 2],
+        'arrival_delay': 2000,
+        'qtd_services': [1, 2, 3, 4],
         'loadbalancer_addresses': 'loadbalancer1:2000,loadbalancer2:3000'
     }
