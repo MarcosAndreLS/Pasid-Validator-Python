@@ -135,13 +135,13 @@ if parsed_data_single_log:
     plot_mrt_vs_num_services(parsed_data_single_log, os.path.basename(log_file_to_parse))
 
     # Arrival delays em milissegundos (quanto menor, maior a taxa de chegada)
-    arrival_delays = [15000, 10000, 7500, 5000, 2000]  # crescente taxa de chegada
+    arrival_delays = [7500, 5000, 2000, 1000, 500, 250]  # crescente taxa de chegada
 
-    min_delay = min(arrival_delays)
-    max_delay = max(arrival_delays)
+    real_arrival_delay = 2000  # <--- altere este valor para o usado no seu experimento real
 
     for delay in arrival_delays:
-        fator = 0.5 + ((max_delay - delay) / (max_delay - min_delay)) * 0.5
+        # Fator proporcional ao inverso da taxa (taxa = 1/delay)
+        fator = real_arrival_delay / delay
         simulated_experimental_data[delay] = [(s, mrt * fator) for s, mrt in parsed_data_single_log]
 
 if simulated_experimental_data:
